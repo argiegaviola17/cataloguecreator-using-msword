@@ -1,0 +1,9 @@
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\bin\Debug\CatalogCreator.exe.config
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\bin\Debug\CatalogCreator.exe
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\bin\Debug\CatalogCreator.pdb
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\obj\Debug\CatalogCreator.csprojResolveAssemblyReference.cache
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\obj\Debug\CatalogCreator.Form1.resources
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\obj\Debug\CatalogCreator.Properties.Resources.resources
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\obj\Debug\CatalogCreator.csproj.GenerateResource.Cache
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\obj\Debug\CatalogCreator.exe
+C:\Users\HUG\Documents\Visual Studio 2015\Projects\CatalogCreator\CatalogCreator\obj\Debug\CatalogCreator.pdb
