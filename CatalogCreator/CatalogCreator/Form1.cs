@@ -40,16 +40,7 @@ namespace CatalogCreator
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            //string[] contents = File.ReadAllLines(textBox1.Text);
-
-            //List<_Class> classes = GetClass(contents);
-
-            //CreateCatalog();
-            // CreateCat();
-            // CreateTableInDoc();
-            //c();
-            // CreateC();
-            //CreateDocumentPropertyTable1();
+             
 
            CreateDocumentPropertyTable();
 
@@ -177,26 +168,9 @@ namespace CatalogCreator
                             {
                                 var shape = tbl.Cell(row, ii).Range.InlineShapes.AddPicture(file, ref objMiss, ref objMiss);
 
-                                //shape1.LockAspectRatio = Core.MsoTriState.msoTrue;// Core.MsoTriState.msoTrue;
-                                //shape1.ScaleHeight(0.5f, Core.MsoTriState.msoTrue,
-                                //    Core.MsoScaleFrom.msoScaleFromTopLeft);
-
-                                //// Align the picture on the upper right.
-                                //if (File.Exists(Application.StartupPath + @"\b.csv"))
-                                //{
-                                //    File.AppendAllText(Application.StartupPath + @"\b.csv", ""+it.ItemNo +","+it.Description+","+shape.Width+","+shape.Height+ Environment.NewLine);
-                                //}
-                                //else
-                                //{
-                                //    File.AppendAllText(Application.StartupPath + @"\b.csv", "" + it.ItemNo + "," + it.Description + "," + shape.Width + "," + shape.Height + Environment.NewLine);
-                                //}
-                                //MessageBox.Show(shape.Height.ToString() + "  " + shape.Width.ToString());
-                                shape.LockAspectRatio = Core.MsoTriState.msoCTrue;
-                                //shape.Width = 160;
                                 
-                                //fix width
-                                //fix height
-
+                                shape.LockAspectRatio = Core.MsoTriState.msoCTrue;
+                              
                                 if (!isNew)
                                 {
                                     
@@ -207,14 +181,7 @@ namespace CatalogCreator
 
                                 if (isHeight) shape.Height = 80;
                                 else if (isWidth) shape.Width = 80;
-                                //shape.Width = 105;
                                 
-                                //Word.Shape shape1 = shape.ConvertToShape();
-                                //shape1.WrapFormat.Type = Word.WdWrapType.wdWrapThrough;
-
-                                // shape1.LockAspectRatio = Core.MsoTriState.msoTrue;
-                                // shape1.Height = 100;
-                                // shape1.Width = 105;
                             }
                             else
                             {
